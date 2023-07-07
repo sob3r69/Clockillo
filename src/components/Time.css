@@ -1,0 +1,20 @@
+.timer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.timer-time {
+  color: black;
+  font-size: 5em;
+  z-index: 1;
+}
+
+.timer-timezone {
+  opacity: 0.5;
+  filter: blur(4px);
+  color: white;
+  font-size: 10em;
+  position: absolute;
+  z-index: 0;
+}

@@ -1,15 +1,16 @@
 .titlebar {
-  height: 30px;
-  background: #329ea3;
-  user-select: none;
+  align-items: center;
   display: flex;
-  justify-content: flex-end;
+  height: 30px;
+  user-select: none;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 }
 .titlebar-button {
+  visibility: hidden;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -18,4 +19,15 @@
 }
 .titlebar-button:hover {
   background: #5bbec3;
+}
+
+.titlebar-title {
+  visibility: hidden;
+}
+
+.titlebar:hover .titlebar-button {
+  visibility: visible;
+}
+.titlebar:hover .titlebar-title {
+  visibility: visible;
 }
