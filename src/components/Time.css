@@ -1,13 +1,25 @@
 .timer {
-  align-items: center;
+  align-items: start;
   display: flex;
   flex-direction: column;
+  /* padding-left: 8px; */
+}
+
+.time-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 4px;
+  flex-direction: row;
+  width: 10em;
 }
 
 .timer-time {
+  /* text-align: center; */
+  font-size: 3em;
   color: black;
-  font-size: 5em;
   z-index: 1;
+  width: 6em;
 }
 
 .timer-timezone {

@@ -1,3 +1,5 @@
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 import './App.css';
 import Time from './components/Time';
 import TitleBar from './components/TitleBar';
@@ -6,7 +8,10 @@ function App() {
   return (
     <div className="app">
       <TitleBar />
-      <Time />
+      <div className="widgets-field">
+        <Time />
+        <Calendar />
+      </div>
     </div>
   );
 }
