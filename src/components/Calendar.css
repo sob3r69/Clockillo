@@ -1,0 +1,39 @@
+.react-calendar {
+  color: black;
+  background: rgba(0, 0, 0, 0.096);
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 350px;
+}
+
+.react-calendar__navigation {
+  text-align: center;
+}
+
+.react-calendar__tile--now {
+  text-decoration: underline;
+}
+
+.react-calendar button {
+  color: black;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 16px;
+  padding-top: 16px;
+  /* margin-top: 4px; */
+  /* margin-bottom: 4px; */
+}
+.react-calendar button:hover {
+  background: white;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  text-align: center;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}

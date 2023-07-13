@@ -1,5 +1,6 @@
 import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
+// import 'react-calendar/dist/Calendar.css';
+import './components/Calendar.css';
 import './App.css';
 import Time from './components/Time';
 import TitleBar from './components/TitleBar';
